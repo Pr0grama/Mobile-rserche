@@ -12,12 +12,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Комната Спанч Боба"
+        android:text="Комната modern"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:text="Комната Спанч Боба" />
+        tools:text="Комната modern" />
 
     <Button
         android:id="@+id/button"
@@ -46,7 +46,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sponge_bob" />
+        app:srcCompat="@drawable/room_interior" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -69,15 +69,6 @@
             android:ems="10"
             android:inputType="text"
             android:text="Имя" />
-
-        <EditText
-            android:id="@+id/editTextTextEmailAddress"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_weight="5"
-            android:ems="10"
-            android:inputType="textEmailAddress"
-            android:text="Почта" />
 
         <EditText
             android:id="@+id/editTextPhone"
@@ -128,12 +119,6 @@
                     android:layout_weight="5"
                     android:text="Ужин" />
 
-                <CheckBox
-                    android:id="@+id/checkBox3"
-                    android:layout_width="101dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="5"
-                    android:text="Тапочки" />
             </TableRow>
         </TableLayout>
 
