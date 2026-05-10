@@ -1,0 +1,52 @@
+# ===== Файлы Gradle и сборки =====
+.gradle/
+build/
+*/build/
+local.properties
+.gradle-toolchains/
+
+# ===== Файлы Android Studio и IntelliJ IDEA =====
+*.iml
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/caches/
+.idea/modules.xml
+.idea/libraries/
+.idea/**/gradle.xml
+.idea/**/uiDesigner.xml
+.idea/**/dataSources.xml
+.idea/**/dataSources.ids
+.idea/**/dynamic.xml
+.idea/**/shelf/
+.navigation/
+captures/
+
+# ===== Файлы ОС =====
+.DS_Store
+Thumbs.db
+*.swp
+*.lock
+
+# ===== Профилирование и отладка =====
+*.hprof
+*.log
+
+# ===== Файлы нативных сборок =====
+.externalNativeBuild
+.cxx/
+*.so
+*.o
+obj/
+
+# ===== Конфиденциальные данные =====
+keystore.properties
+*.jks
+*.keystore
+google-services.json
+
+# ===== Файлы сборок =====
+*.apk
+*.ap_
+*.aab
+output-metadata.json
